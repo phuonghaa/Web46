@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>TaskList</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">My Tasks</div>
+        <div class="input-wrapper">
+            <input type="text" placeholder="Add your new task" class="input-field">
+            <div class="add-btn"><i class="fa fa-plus-square"></i></div>
+        </div>
+        <div class="search-wrapper">
+            <input type="text" placeholder="Search for your tasks" class="search-field">
+            <div class="search-btn"><i class="fa fa-search"></i></div>
+        </div>
+        <ul class='task-list'>
+            <li>Learn Data Structure <span class="delete-btn"><i class="fa fa-trash"></i></span></li>
+            <li>Go to the Gym <span class="delete-btn"><i class="fa fa-trash"></i></span></li>
+            <li>Buying a new padding <span class="delete-btn"><i class="fa fa-trash"></i></span></li>
+            <li>Go travel <span class="delete-btn"><i class="fa fa-trash"></i></span></li>
+            <li>Make cookie <span class="delete-btn"><i class="fa fa-trash"></i></span></li>
+            <li>Do homework <span class="delete-btn"><i class="fa fa-trash"></i></span></li>
+        </ul>
+        <div class="footer">
+            <div>You have <span class='pending-number'>5</span> tasks left</div>
+            <div class="clear-btn"> Clear All</div>
+        </div>
+    </div>
 </body>
 </html>
