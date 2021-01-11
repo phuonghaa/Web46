@@ -80,9 +80,5 @@ clearBtn.onclick = () => {
     }
 }
 
-//Show the searching results
-// function showSearchResult(){
-//     let searchValue = searchField.value.toLowerCase();
 
-// }
 
