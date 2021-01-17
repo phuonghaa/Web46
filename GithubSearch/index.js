@@ -13,7 +13,7 @@ searchField.onkeyup = () =>{
     }
 }
 
-//Listen to the event of clicking the searchBtn
+//Listen to the event of clicking the searchBtn => show appropriate result!
 searchBtn.onclick= async () => {
     let inputValue = searchField.value;
 
@@ -48,7 +48,5 @@ searchBtn.onclick= async () => {
         `
         console.log('error');
     }
-
-
 }
 
